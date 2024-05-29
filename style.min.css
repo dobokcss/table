@@ -1,1 +1,14 @@
+/*
+ *
+ * ------------------------------------------------------
+ * DobokCSS
+ * ------------------------------------------------------
+ *
+ * page:    https://dobokcss.github.io/essential/table/
+ * author:  Estefanio N Santos <estefanions AT gmail DOT com>
+ * version: 0.30.0
+ */
+
+.tb, .tb_hv,.tb_border, .tb_striped{margin:2px; border-collapse:collapse} .tb th,.tb_hv th, .tb_border th, .tb_striped th{ color:#444; background:#fff; text-align:left; font-weight:bold; padding:10px 5px } .tb td, .tb_hv td, .tb_border td, .tb_striped td{ color:#444; background:#fff; padding:10px 5px } .tb_tr_hv td{background:#edeaea} .tb_tr_off td{background:#fff} .tb_border th{ color: #444; background: #fff; text-align: left; font-weight: bold; padding: 10px 5px } .tb_border td{ color: #444; background: #fff; padding: 10px 5px } .tb_border th, .tb_border td{ border: 1px solid #ededed } .tb_striped tbody >tr:nth-child(2n+1) >td, .tb_fill tr td, .tb_tr_on td, .tb_hv tr:hover td { background:#ededed} .tb_fill{margin:2px; border-collapse:collapse} .tb_fill th{ color: #444; background: #fff; font-weight: bold; text-align: left; padding: 10px 5px } .tb_fill td{ color: #444; background: #fff; padding: 10px 5px; border-bottom: 10px solid #fff } .tb_fill tr{margin-bottom: 10px} .tb_prm tr td, .tb_hv_prm tr:hover td{ background: var(--prm) } .tb_scn tr td, .tb_hv_scn tr:hover td{ background: var(--scn) } .tb_lgt tr td, .tb_hv_lgt tr:hover td{ background: #f6f6f6 } .tb_stn tr td, .tb_hv_stn tr:hover td{ background: #ccc } .tb_prm tr td, .tb_hv_prm tr:hover td, .tb_scn tr td, .tb_hv_scn tr:hover td{ color: #ccc }
+
 @media (max-width: 890px) { .tb_fluid thead { display: none } .tb_fluid tr { display: block; margin-top: 5px; padding-bottom: 15px } .tb_fluid td { display: block; text-align: right; font-size: 14px; margin-bottom:3px; min-height: 14px } .tb_fluid td:before { content: attr(colname); float: left; font-weight: bold } }
